@@ -59,3 +59,12 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+
+github "iterm2"
+github "chrome"
+github "dropbox"
+github "virtualbox", "1.0.13"
+github "vagrant"
+github "atom"
+github "silver_searcher", "0.0.1", :repo => "seanknox/puppet-silver_searcher"
