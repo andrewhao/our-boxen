@@ -9,5 +9,6 @@ class people::andrewhao::applications {
   include vim
   #include macvim
   include janus
+  include docker
 }
 
