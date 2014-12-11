@@ -60,7 +60,7 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-
+github "mosh", "1.0.0", :repo => "pauloconnor/puppet-mosh"
 github "iterm2"
 github "chrome"
 github "dropbox"
@@ -73,3 +73,5 @@ github "ohmyzsh", "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 #github "macvim"
 github "janus", "1.0.1", :repo => "paulcollinsiii/puppet-janus"
 github "docker", "0.7.0"
+github "wget"
+github "java"
