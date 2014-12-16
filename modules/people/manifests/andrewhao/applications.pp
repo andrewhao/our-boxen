@@ -18,5 +18,12 @@ class people::andrewhao::applications {
   include mosh
   include wget
   include java
+  include sublime_text
+  include swig
+  include pcre
+  include graphviz
+  include postgresql
+  include tmux
+  include phantomjs
 }
 
