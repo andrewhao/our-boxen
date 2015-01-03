@@ -27,5 +27,6 @@ class people::andrewhao::applications {
   include phantomjs
   include transmission
   include heroku
+  include firefox
 }
 

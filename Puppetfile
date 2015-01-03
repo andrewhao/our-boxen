@@ -84,3 +84,5 @@ github "postgresql"
 github "tmux"
 github "transmission"
 github "heroku"
+github "firefox"
+
