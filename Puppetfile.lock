@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: andrewhao/puppet-virtualbox
+  specs:
+    virtualbox (1.0.14)
+
+GITHUBTARBALL
   remote: boxen/puppet-atom
   specs:
     atom (1.1.0)
@@ -169,11 +174,6 @@ GITHUBTARBALL
     vim (1.0.5)
 
 GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.13)
-
-GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.1)
@@ -260,7 +260,7 @@ DEPENDENCIES
   transmission (>= 0)
   vagrant (>= 0)
   vim (>= 0)
-  virtualbox (= 1.0.13)
+  virtualbox (= 1.0.14)
   wget (>= 0)
   xquartz (= 1.2.1)
 
