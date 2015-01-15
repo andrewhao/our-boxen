@@ -28,5 +28,9 @@ class people::andrewhao::applications {
   include transmission
   include heroku
   include firefox
+  include clojure
 }
 
+# Install PhantomJS version 1.9.8
+phantomjs::version { '1.9.8': }
+phantomjs::global { '1.9.8': }

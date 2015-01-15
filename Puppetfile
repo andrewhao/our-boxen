@@ -85,4 +85,4 @@ github "tmux"
 github "transmission"
 github "heroku"
 github "firefox"
-
+github "clojure"
