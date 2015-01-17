@@ -39,6 +39,11 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.2.3)
@@ -194,11 +199,6 @@ GITHUBTARBALL
     ohmyzsh (1.0.0)
 
 GITHUBTARBALL
-  remote: paulcollinsiii/puppet-janus
-  specs:
-    janus (1.0.1)
-
-GITHUBTARBALL
   remote: pauloconnor/puppet-mosh
   specs:
     mosh (1.0.0)
@@ -231,6 +231,7 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   docker (= 0.7.0)
   dropbox (>= 0)
+  emacs (= 1.2.0)
   firefox (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
@@ -242,7 +243,6 @@ DEPENDENCIES
   hub (= 1.3.0)
   inifile (= 1.1.1)
   iterm2 (>= 0)
-  janus (= 1.0.1)
   java (>= 0)
   module_data (= 0.0.3)
   mosh (= 1.0.0)

@@ -12,8 +12,9 @@ class people::andrewhao::applications {
   include silver_searcher
   include ohmyzsh
   include vim
+  include emacs
   #include macvim
-  include janus
+  #include janus
   include docker
   include mosh
   include wget
