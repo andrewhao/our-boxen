@@ -10,11 +10,9 @@ class people::andrewhao::applications {
   include vagrant
   include chrome
   include silver_searcher
-  include ohmyzsh
   include vim
   include emacs
-  #include macvim
-  #include janus
+  include tig
   include docker
   include mosh
   include wget
