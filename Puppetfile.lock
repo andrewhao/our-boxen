@@ -114,6 +114,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.8.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-pcre
   specs:
     pcre (1.0.0)
@@ -194,6 +199,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: pauloconnor/puppet-mosh
   specs:
     mosh (1.0.0)
@@ -249,6 +259,7 @@ DEPENDENCIES
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
+  osx (>= 0)
   pcre (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
@@ -269,4 +280,5 @@ DEPENDENCIES
   virtualbox (= 1.0.14)
   wget (>= 0)
   xquartz (= 1.2.1)
+  zsh (>= 0)
 

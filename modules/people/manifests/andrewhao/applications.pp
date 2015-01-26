@@ -28,6 +28,7 @@ class people::andrewhao::applications {
   include heroku
   include firefox
   include clojure
+  include zsh
 }
 
 # Install PhantomJS version 1.9.8
