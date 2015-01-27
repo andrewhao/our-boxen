@@ -24,7 +24,7 @@ class people::andrewhao::applications {
   include postgresql
   include tmux
   include phantomjs
-  include transmission
+  #include transmission
   include heroku
   include firefox
   include clojure
