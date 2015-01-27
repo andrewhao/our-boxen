@@ -29,6 +29,9 @@ class people::andrewhao::applications {
   include firefox
   include clojure
   include zsh
+  include screenhero
+  include atom
+  include dropbox
 }
 
 # Install PhantomJS version 1.9.8
