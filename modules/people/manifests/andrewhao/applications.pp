@@ -37,3 +37,14 @@ class people::andrewhao::applications {
 # Install PhantomJS version 1.9.8
 phantomjs::version { '1.9.8': }
 phantomjs::global { '1.9.8': }
+
+ruby::version { '2.1.3': }
+class { 'ruby::global':
+  version => '2.1.3'
+}
+
+ruby_gem { 'bundler for all rubies':
+  gem          => 'bundler',
+  version      => '~> 1.0',
+  ruby_version => '*'
+}
