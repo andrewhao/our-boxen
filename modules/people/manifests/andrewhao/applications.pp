@@ -32,6 +32,7 @@ class people::andrewhao::applications {
   include screenhero
   include atom
   include dropbox
+  include mailbox
 }
 
 # Install PhantomJS version 1.9.8
