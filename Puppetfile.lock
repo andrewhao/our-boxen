@@ -99,6 +99,11 @@ GITHUBTARBALL
     java (1.7.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-kindle
+  specs:
+    kindle (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-mailbox
   specs:
     mailbox (1.1.1)
@@ -265,6 +270,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (>= 0)
   java (>= 0)
+  kindle (>= 0)
   mailbox (>= 0)
   module_data (= 0.0.3)
   mosh (= 1.0.0)

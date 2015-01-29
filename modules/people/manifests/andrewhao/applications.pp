@@ -32,6 +32,7 @@ class people::andrewhao::applications {
   include screenhero
   include atom
   include dropbox
+  include kindle
   include mailbox
 }
 
