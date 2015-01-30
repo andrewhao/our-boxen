@@ -99,6 +99,11 @@ GITHUBTARBALL
     java (1.7.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mailbox
   specs:
     mailbox (1.1.1)
@@ -142,6 +147,11 @@ GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (3.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (3.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -265,6 +275,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (>= 0)
   java (>= 0)
+  macvim (>= 0)
   mailbox (>= 0)
   module_data (= 0.0.3)
   mosh (= 1.0.0)
@@ -276,6 +287,7 @@ DEPENDENCIES
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   postgresql (>= 0)
+  redis (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
   screenhero (>= 0)

@@ -10,7 +10,7 @@ class people::andrewhao::applications {
   include vagrant
   include chrome
   include silver_searcher
-  include vim
+  include macvim
   include emacs
   include tig
   include docker
@@ -33,6 +33,13 @@ class people::andrewhao::applications {
   include atom
   include dropbox
   include mailbox
+  include redis
+}
+
+class gdal {
+  package { 'gdal':
+    ensure => installed,
+  }
 }
 
 # Install PhantomJS version 1.9.8
