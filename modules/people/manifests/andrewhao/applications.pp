@@ -34,6 +34,8 @@ class people::andrewhao::applications {
   include dropbox
   include mailbox
   include redis
+  include gdal
+  include postgis
 }
 
 class gdal {

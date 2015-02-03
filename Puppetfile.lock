@@ -224,6 +224,11 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
+  remote: lonelyplanet/puppet-postgis
+  specs:
+    postgis (2.1.7)
+
+GITHUBTARBALL
   remote: pauloconnor/puppet-mosh
   specs:
     mosh (1.0.0)
@@ -286,6 +291,7 @@ DEPENDENCIES
   pcre (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  postgis (= 2.1.7)
   postgresql (>= 0)
   redis (>= 0)
   repository (= 2.3.0)
