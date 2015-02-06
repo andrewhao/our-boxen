@@ -52,14 +52,15 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.7"
+github "ruby",        "8.3.0"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-
+#
+github "python", "2.0.1", :repo => "mloberg/puppet-python"
 github "mosh", "1.0.0", :repo => "pauloconnor/puppet-mosh"
 github "iterm2"
 github "chrome"
