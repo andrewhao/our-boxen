@@ -44,6 +44,11 @@ GITHUBTARBALL
     emacs (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-fig
+  specs:
+    fig (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.2.3)
@@ -273,6 +278,7 @@ DEPENDENCIES
   dropbox (>= 0)
   dropbox (>= 0)
   emacs (= 1.2.0)
+  fig (>= 0)
   firefox (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)

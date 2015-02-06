@@ -36,6 +36,7 @@ class people::andrewhao::applications {
   include redis
   include gdal
   include python
+  include fig
   #include postgis
 }
 
