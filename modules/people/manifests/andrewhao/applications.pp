@@ -46,6 +46,8 @@ class gdal {
 phantomjs::version { '1.9.8': }
 phantomjs::global { '1.9.8': }
 
+python::pip { 'awscli': }
+
 ruby::version { '2.1.3': }
 class { 'ruby::global':
   version => '2.1.3'
