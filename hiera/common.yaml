@@ -8,16 +8,11 @@
 # heart's content.
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::global::version: "2.2.0"
 ruby::rbenv_plugins:
   rbenv-vars:
     ensure: v1.0.0
     source: sstephenson/rbenv-vars
-  ruby-build:
-    ensure: v20150130
-    source: sstephenson/ruby-build
-ruby::version::alias:
-  2.0.0: 2.0.0-p353
+ruby::build::ensure: v20150116
 
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 75
