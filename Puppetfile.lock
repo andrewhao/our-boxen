@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-docker
   specs:
-    docker (0.7.0)
+    docker (0.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -274,7 +274,7 @@ DEPENDENCIES
   chrome (>= 0)
   clojure (>= 0)
   dnsmasq (= 2.0.1)
-  docker (= 0.7.0)
+  docker (= 0.8.0)
   dropbox (>= 0)
   dropbox (>= 0)
   emacs (= 1.2.0)
