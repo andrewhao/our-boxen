@@ -24,7 +24,6 @@ class people::andrewhao::applications {
   include postgresql
   include tmux
   include phantomjs
-  #include transmission
   include heroku
   include firefox
   include clojure
@@ -37,6 +36,7 @@ class people::andrewhao::applications {
   include gdal
   include python
   include fig
+  #include transmission
   #include postgis
 }
 
@@ -52,8 +52,3 @@ phantomjs::global { '1.9.8': }
 
 python::pip { 'awscli': }
 
-ruby_gem { 'bundler for all rubies':
-  gem          => 'bundler',
-  version      => '~> 1.0',
-  ruby_version => '*'
-}
