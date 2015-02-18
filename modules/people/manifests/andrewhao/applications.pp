@@ -38,6 +38,10 @@ class people::andrewhao::applications {
   include fig
   #include transmission
   #include postgis
+  include android::sdk
+  include android::tools
+  include android::platform_tools
+  include android::studio
 }
 
 class gdal {
@@ -45,6 +49,7 @@ class gdal {
     ensure => installed,
   }
 }
+
 
 # Install PhantomJS version 1.9.8
 phantomjs::version { '1.9.8': }
