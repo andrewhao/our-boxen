@@ -39,7 +39,7 @@ class people::andrewhao::applications {
   include android::sdk
   include android::tools
   include android::platform_tools
-  include android::studio
+  #include android::studio
   include ahaobrews
 }
 
@@ -48,7 +48,8 @@ class ahaobrews {
   $packages = [
     'gdal',
     'reattach-to-user-namespace',
-    'transmission'
+    'transmission',
+    'gh'
   ]
   package { $packages:
     ensure => "installed"
