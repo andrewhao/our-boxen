@@ -204,11 +204,6 @@ GITHUBTARBALL
     tmux (1.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-transmission
-  specs:
-    transmission (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.1.1)
@@ -323,7 +318,6 @@ DEPENDENCIES
   sysctl (>= 0)
   tig (= 1.0.0)
   tmux (>= 0)
-  transmission (>= 0)
   vagrant (>= 0)
   vim (>= 0)
   virtualbox (= 1.0.14)

@@ -33,22 +33,28 @@ class people::andrewhao::applications {
   include dropbox
   include mailbox
   include redis
-  include gdal
   include python
   include fig
-  #include transmission
   #include postgis
   include android::sdk
   include android::tools
   include android::platform_tools
   include android::studio
+  include ahaobrews
 }
 
-class gdal {
-  package { 'gdal':
-    ensure => installed,
+# My custom Homebrew packages.
+class ahaobrews {
+  $packages = [
+    'gdal',
+    'reattach-to-user-namespace',
+    'transmission'
+  ]
+  package { $packages:
+    ensure => "installed"
   }
 }
+
 
 
 # Install PhantomJS version 1.9.8
