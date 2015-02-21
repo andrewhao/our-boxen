@@ -49,7 +49,8 @@ class ahaobrews {
     'gdal',
     'reattach-to-user-namespace',
     'transmission',
-    'gh'
+    'gh',
+    'jmeter'
   ]
   package { $packages:
     ensure => "installed"
