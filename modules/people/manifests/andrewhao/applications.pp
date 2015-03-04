@@ -36,9 +36,9 @@ class people::andrewhao::applications {
   include python
   include fig
   #include postgis
-  include android::sdk
-  include android::tools
-  include android::platform_tools
+  #include android::sdk
+  #include android::tools
+  #include android::platform_tools
   #include android::studio
   include ahaobrews
 }
@@ -50,7 +50,9 @@ class ahaobrews {
     'reattach-to-user-namespace',
     'transmission',
     'gh',
-    'jmeter'
+    'jmeter',
+    'docker-compose',
+    'ssh-copy-id'
   ]
   package { $packages:
     ensure => "installed"
@@ -60,6 +62,7 @@ class ahaobrews {
 
 
 # Install PhantomJS version 1.9.8
+phantomjs::version { '1.9.7': }
 phantomjs::version { '1.9.8': }
 phantomjs::global { '1.9.8': }
 
