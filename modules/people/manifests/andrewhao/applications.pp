@@ -35,11 +35,7 @@ class people::andrewhao::applications {
   include redis
   include python
   include fig
-  #include postgis
-  #include android::sdk
-  #include android::tools
-  #include android::platform_tools
-  #include android::studio
+  include sourcetree
   include ahaobrews
 }
 
@@ -52,7 +48,8 @@ class ahaobrews {
     'gh',
     'jmeter',
     'docker-compose',
-    'ssh-copy-id'
+    'ssh-copy-id',
+    'duck'
   ]
   package { $packages:
     ensure => "installed"
