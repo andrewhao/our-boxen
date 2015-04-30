@@ -34,7 +34,6 @@ class people::andrewhao::applications {
   include mailbox
   include redis
   include python
-  include fig
   include sourcetree
   include ahaobrews
 }
@@ -49,14 +48,17 @@ class ahaobrews {
     'jmeter',
     'docker-compose',
     'ssh-copy-id',
-    'duck'
+    'duck',
+    'pstree',
+    'htop',
+    'ngrok'
   ]
   package { $packages:
     ensure => "installed"
   }
 }
 
-
+package { 'github': provider => 'brewcask' }
 
 # Install PhantomJS version 1.9.8
 phantomjs::version { '1.9.7': }
