@@ -51,7 +51,8 @@ class ahaobrews {
     'duck',
     'pstree',
     'htop',
-    'ngrok'
+    'ngrok',
+    'plantuml'
   ]
   package { $packages:
     ensure => "installed"
