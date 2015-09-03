@@ -66,5 +66,6 @@ phantomjs::version { '1.9.7': }
 phantomjs::version { '1.9.8': }
 phantomjs::global { '1.9.8': }
 
-python::pip { 'awscli': }
+python::pip {'awscli': }
+python::pip {'ansible': }
 
