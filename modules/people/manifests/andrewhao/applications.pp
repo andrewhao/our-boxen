@@ -52,7 +52,10 @@ class ahaobrews {
     'pstree',
     'htop',
     'ngrok',
-    'plantuml'
+    'plantuml',
+    'keybase',
+    'gpg',
+    'ctags'
   ]
   package { $packages:
     ensure => "installed"
