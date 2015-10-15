@@ -12,7 +12,7 @@ ruby::rbenv_plugins:
   rbenv-vars:
     ensure: v1.0.0
     source: sstephenson/rbenv-vars
-ruby::build::ensure: v20150116
+ruby::build::ensure: v20150928
 
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 75

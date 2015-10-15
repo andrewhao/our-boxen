@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.6)
+    nginx (1.4.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -314,7 +314,7 @@ DEPENDENCIES
   mailbox (>= 0)
   module_data (= 0.0.4)
   mosh (= 1.0.0)
-  nginx (= 1.4.6)
+  nginx (= 1.4.4)
   nodejs (= 5.0.0)
   openssl (= 1.0.0)
   osx (>= 0)
