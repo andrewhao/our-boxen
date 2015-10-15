@@ -55,7 +55,8 @@ class ahaobrews {
     'plantuml',
     'keybase',
     'gpg',
-    'ctags'
+    'ctags',
+    'coreutils'
   ]
   package { $packages:
     ensure => "installed"
