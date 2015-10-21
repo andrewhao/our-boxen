@@ -56,7 +56,8 @@ class ahaobrews {
     'keybase',
     'gpg',
     'ctags',
-    'coreutils'
+    'coreutils',
+    'highlight'
   ]
   package { $packages:
     ensure => "installed"
