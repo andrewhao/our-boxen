@@ -6,7 +6,6 @@ class people::andrewhao::applications {
   include iterm2::colors::solarized_dark
   include iterm2::colors::zenburn
   include dropbox
-  include virtualbox
   include vagrant
   include chrome
   include silver_searcher
@@ -64,17 +63,20 @@ class ahaobrews {
     'heroku'
   ]
   package { $packages:
-    ensure => "installed"
+    ensure   => "installed"
   }
 }
 
-package { 'github': provider => 'brewcask' }
+package { 'github':     provider => 'brewcask' }
+package { 'virtualbox': provider => 'brewcask' }
+
 
 # Install PhantomJS version 1.9.8
 phantomjs::version { '1.9.7': }
 phantomjs::version { '1.9.8': }
 phantomjs::global { '1.9.8': }
 
-python::pip {'awscli': }
-python::pip {'ansible': }
+python::pip { 'awscli': }
+python::pip { 'ansible': }
+
 

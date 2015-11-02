@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: andrewhao/puppet-virtualbox
-  specs:
-    virtualbox (1.0.14)
-
-GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.6.0)
@@ -333,7 +328,6 @@ DEPENDENCIES
   tmux (>= 0)
   vagrant (>= 0)
   vim (>= 0)
-  virtualbox (= 1.0.14)
   wget (>= 0)
   xquartz (= 1.2.1)
   zsh (>= 0)
