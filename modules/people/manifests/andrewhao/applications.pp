@@ -33,7 +33,6 @@ class people::andrewhao::applications {
   include mailbox
   include redis
   include python
-  include sourcetree
   include ahaobrews
   include ahaocaskbrews
 }
@@ -46,7 +45,7 @@ class ahaocaskbrews {
   include brewcask
 
   $cask_packages = [
-    'github',
+    'github-desktop',
     'virtualbox',
     'transmission'
   ]
