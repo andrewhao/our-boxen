@@ -35,6 +35,29 @@ class people::andrewhao::applications {
   include python
   include sourcetree
   include ahaobrews
+  include ahaocaskbrews
+}
+
+# Warning!
+#
+# It's hard to install virtualbox via caskroom+boxen rightnow.
+# So we have to manually call `boxen cask install virtualbox`
+class ahaocaskbrews {
+  include brewcask
+
+  $cask_packages = [
+    'github',
+    'virtualbox',
+    'transmission'
+  ]
+
+  ## Install the cask packages.
+  ## You might need some sort of sudo hack. Tries to symlink stuff to
+  ## non-writable dir
+  package { $cask_packages:
+    ensure           => present,
+    provider         => 'brewcask'
+  }
 }
 
 # My custom Homebrew packages.
@@ -44,7 +67,6 @@ class ahaobrews {
   $packages = [
     'gdal',
     'reattach-to-user-namespace',
-    'transmission',
     'gh',
     'jmeter',
     'ssh-copy-id',
@@ -67,8 +89,6 @@ class ahaobrews {
   }
 }
 
-package { 'github':     provider => 'brewcask' }
-package { 'virtualbox': provider => 'brewcask' }
 
 
 # Install PhantomJS version 1.9.8
