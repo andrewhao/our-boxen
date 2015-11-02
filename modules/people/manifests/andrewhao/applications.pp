@@ -40,6 +40,8 @@ class people::andrewhao::applications {
 
 # My custom Homebrew packages.
 class ahaobrews {
+  homebrew::tap { 'codeclimate/formulae': }
+
   $packages = [
     'gdal',
     'reattach-to-user-namespace',
@@ -56,7 +58,8 @@ class ahaobrews {
     'gpg',
     'ctags',
     'coreutils',
-    'highlight'
+    'highlight',
+    'codeclimate'
   ]
   package { $packages:
     ensure => "installed"
