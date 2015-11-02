@@ -41,7 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-docker
   specs:
-    docker (0.8.0)
+    docker (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox

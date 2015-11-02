@@ -46,7 +46,6 @@ class ahaobrews {
     'transmission',
     'gh',
     'jmeter',
-    'docker-compose',
     'ssh-copy-id',
     'duck',
     'pstree',
