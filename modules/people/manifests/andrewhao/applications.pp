@@ -59,7 +59,8 @@ class ahaobrews {
     'ctags',
     'coreutils',
     'highlight',
-    'codeclimate'
+    'codeclimate',
+    'elixir'
   ]
   package { $packages:
     ensure => "installed"
