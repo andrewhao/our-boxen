@@ -60,7 +60,8 @@ class ahaobrews {
     'coreutils',
     'highlight',
     'codeclimate',
-    'elixir'
+    'elixir',
+    'heroku'
   ]
   package { $packages:
     ensure => "installed"
