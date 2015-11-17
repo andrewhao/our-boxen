@@ -1,0 +1,13 @@
+
+ruby::rbenv_plugins:
+  rbenv-vars:
+    ensure: v1.0.0
+    source: sstephenson/rbenv-vars
+ruby::build::ensure: v20150928
+
+# node-build SHA from https://github.com/OiNutter/node-build
+nodejs::nodenv::ensure: "v0.4.0"
+nodejs::build::ensure: "3cd0084a0da41d56d7e663d350910fecf8c364fd"
+
+# See https://github.com/boxen/puppet-java for docs
+#java::update_version: 75

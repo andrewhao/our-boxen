@@ -8,15 +8,3 @@
 # heart's content.
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::rbenv_plugins:
-  rbenv-vars:
-    ensure: v1.0.0
-    source: sstephenson/rbenv-vars
-ruby::build::ensure: v20150928
-
-# node-build SHA from https://github.com/OiNutter/node-build
-nodejs::nodenv::ensure: "v0.4.0"
-nodejs::build::ensure: "a400214bd9e49cc7dac61c19e405901382476863"
-
-# See https://github.com/boxen/puppet-java for docs
-#java::update_version: 75
