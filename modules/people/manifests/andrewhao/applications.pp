@@ -81,7 +81,8 @@ class ahaobrews {
     'highlight',
     'codeclimate',
     'elixir',
-    'heroku'
+    'heroku',
+    'homebrew/dupes/rsync'
   ]
   package { $packages:
     ensure   => "installed"
