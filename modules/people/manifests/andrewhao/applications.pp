@@ -47,7 +47,8 @@ class ahaocaskbrews {
   $cask_packages = [
     'github-desktop',
     'virtualbox',
-    'transmission'
+    'transmission',
+    'licecap'
   ]
 
   ## Install the cask packages.
