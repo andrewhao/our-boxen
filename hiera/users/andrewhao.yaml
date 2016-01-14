@@ -3,7 +3,7 @@ ruby::rbenv_plugins:
   rbenv-vars:
     ensure: v1.0.0
     source: sstephenson/rbenv-vars
-ruby::build::ensure: v20150928
+ruby::build::ensure: v20160111
 
 # node-build SHA from https://github.com/OiNutter/node-build
 nodejs::nodenv::ensure: "v0.4.0"
