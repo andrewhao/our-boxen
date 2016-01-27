@@ -9,5 +9,7 @@ ruby::build::ensure: v20160111
 nodejs::nodenv::ensure: "v0.4.0"
 nodejs::build::ensure: "e27e6aca77e7d65a596c1652c1e3a079796bffa1"
 
+python::params::pyenv_version: "v20151222"
+
 # See https://github.com/boxen/puppet-java for docs
 #java::update_version: 75
