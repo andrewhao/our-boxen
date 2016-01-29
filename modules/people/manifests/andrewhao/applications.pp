@@ -62,8 +62,6 @@ class ahaocaskbrews {
 
 # My custom Homebrew packages.
 class ahaobrews {
-  homebrew::tap { 'codeclimate/formulae': }
-
   $packages = [
     'gdal',
     'reattach-to-user-namespace',
@@ -80,7 +78,6 @@ class ahaobrews {
     'ctags',
     'coreutils',
     'highlight',
-    'codeclimate',
     'elixir',
     'heroku',
     'homebrew/dupes/rsync',
