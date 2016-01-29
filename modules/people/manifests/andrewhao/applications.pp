@@ -83,7 +83,8 @@ class ahaobrews {
     'codeclimate',
     'elixir',
     'heroku',
-    'homebrew/dupes/rsync'
+    'homebrew/dupes/rsync',
+    'postgis'
   ]
   package { $packages:
     ensure   => "installed"

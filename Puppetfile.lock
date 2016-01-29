@@ -219,11 +219,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: lonelyplanet/puppet-postgis
-  specs:
-    postgis (2.1.7)
-
-GITHUBTARBALL
   remote: mloberg/puppet-python
   specs:
     python (2.0.1)
@@ -273,8 +268,8 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.7.92)
-  go (>= 0)
   go (= 2.1.0)
+  go (>= 0)
   graphviz (>= 0)
   heroku (>= 0)
   homebrew (= 1.13.0)
@@ -293,7 +288,6 @@ DEPENDENCIES
   pcre (>= 0)
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
-  postgis (= 2.1.7)
   postgresql (>= 0)
   python (= 2.0.1)
   redis (>= 0)
