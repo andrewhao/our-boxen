@@ -71,6 +71,9 @@ node default {
   ruby::version { '2.1.3': }
   ruby::version { '2.2.3': }
 
+  # python versions
+  python::version { '2.7.10': }
+
   class { 'ruby::global':
     version => '2.2.3'
   }
