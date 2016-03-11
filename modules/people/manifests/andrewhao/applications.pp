@@ -12,7 +12,6 @@ class people::andrewhao::applications {
   include macvim
   include emacs
   include tig
-  include docker
   include mosh
   include wget
   include java
@@ -48,7 +47,8 @@ class ahaocaskbrews {
     'github-desktop',
     'virtualbox',
     'transmission',
-    'licecap'
+    'licecap',
+    'dockertoolbox'
   ]
 
   ## Install the cask packages.
