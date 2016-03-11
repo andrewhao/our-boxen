@@ -62,6 +62,8 @@ class ahaocaskbrews {
 
 # My custom Homebrew packages.
 class ahaobrews {
+  homebrew::tap { 'homebrew/services': }
+
   $packages = [
     'gdal',
     'reattach-to-user-namespace',
