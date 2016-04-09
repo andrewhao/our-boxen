@@ -83,7 +83,8 @@ class ahaobrews {
     'elixir',
     'heroku',
     'homebrew/dupes/rsync',
-    'postgis'
+    'postgis',
+    'pgcli'
   ]
   package { $packages:
     ensure   => "installed"
