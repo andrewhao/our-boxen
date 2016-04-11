@@ -80,8 +80,6 @@ github "graphviz"
 github "swig"
 github "pcre"
 github "sysctl"
-github "postgresql", '4.1.0'
-github "postgis", "2.1.7", :repo => 'lonelyplanet/puppet-postgis'
 github "tig", "1.0.0", :repo => "skottler/puppet-tig"
 github "tmux"
 github "heroku"
