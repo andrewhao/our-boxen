@@ -77,6 +77,7 @@ class ahaobrews {
     'plantuml',
     'keybase',
     'gpg',
+    'gpg-agent',
     'ctags',
     'coreutils',
     'highlight',
