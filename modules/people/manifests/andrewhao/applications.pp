@@ -85,7 +85,8 @@ class ahaobrews {
     'heroku',
     'homebrew/dupes/rsync',
     'postgis',
-    'pgcli'
+    'pgcli',
+    'rename'
   ]
   package { $packages:
     ensure   => "installed"
