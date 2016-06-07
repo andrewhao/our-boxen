@@ -86,7 +86,8 @@ class ahaobrews {
     'homebrew/dupes/rsync',
     'postgis',
     'pgcli',
-    'rename'
+    'rename',
+    'fzf'
   ]
   package { $packages:
     ensure   => "installed"
