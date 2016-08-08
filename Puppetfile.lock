@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (3.2.0)
+    redis (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -161,7 +161,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text
   specs:
-    sublime_text (1.1.0)
+    sublime_text (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -186,7 +186,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.3.3)
+    vagrant (3.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-vim
@@ -206,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
-    zsh (1.0.0)
+    zsh (1.0.1)
 
 GITHUBTARBALL
   remote: mloberg/puppet-python
